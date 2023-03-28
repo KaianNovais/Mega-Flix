@@ -106,4 +106,23 @@ hr {
         font-size: 1rem;
     }
 }
+@media only screen and (max-width: 400px){
+    .links {
+        display: none;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    h1 {
+        grid-row-start: 4;
+        grid-column: 2 /8;
+    }
+    h2 {
+        grid-row-start: 6;
+        grid-column: 2 /8;
+    }
+}
 

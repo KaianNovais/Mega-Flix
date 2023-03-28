@@ -88,3 +88,14 @@ img, .atropos {
         align-items: center;
     }
 }
+
+@media (max-width: 400px){
+    img, .atropos {
+        width: 95%;
+        height: auto;
+        border-radius: 12px;
+    }
+}
+
+
+

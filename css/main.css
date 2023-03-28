@@ -10,3 +10,15 @@ html {
     padding: 0;
 }
 
+@media only screen and (max-width: 400px){
+    header {
+        width: auto;
+    }
+    main {
+        width: auto;
+    }
+    .movie {
+        width: auto;
+    }
+}
+
