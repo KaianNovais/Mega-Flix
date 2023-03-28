@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans:wght@300;500;700&family=Poppins:ital,wght@1,500&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inter:wght@300;400;500;600;700&family=Noto+Sans:wght@300;500;700&family=Poppins:ital,wght@1,500&family=Tilt+Neon&display=swap');
+header {
+    background-image: url("../image/filmes.png");
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+}
+h1 {
+    font-family: "Noto Sans";
+    font-size: 4rem;
+    color: white;
+    grid-row-start: 5;
+    grid-column: 2 /8;
+}
+h2 {
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: white;
+    grid-row-start: 7;
+    grid-column: 2 /8;
+}
+nav {
+    grid-column: 1/11;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo__image {
+    width: 92px;
+    height: 72px;
+}
+.logo__titulo {
+    font-family: "Delicious Handrawn";
+    color: white;
+    font-size: 1.3rem;
+}
+li {
+    margin-right: 16px;
+    display: inline-block;
+    color: white;
+}
+a {
+    font-family: "Noto Sans";
+    text-decoration: none;
+    color: white;
+    font-family: "Noto Sans";
+    font-weight: 300;
+    font-size: 1.3rem;
+
+}
+.home {
+    color: #fd0178;
+    display: inline-flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+hr {
+    margin-top: 4px;
+    width: 42px;
+    display: inline;
+    border-color: #fd0178;
+}
+.btn {
+    grid-row-start: 8;
+    grid-column: 2 /8;
+    display: flex;
+}
+.btn__start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fd0178;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+}
+.btn__plan {
+    background-color: #252c57;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+@media only screen and (max-width: 700px){
+    .links {
+        display: none;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+}
+
